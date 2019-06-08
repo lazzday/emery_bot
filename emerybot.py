@@ -3,8 +3,6 @@
 
 import praw
 import secret
-import time
-import traceback
 
 reddit = praw.Reddit(client_id=secret.CLIENT_ID,
                      client_secret=secret.CLIENT_SECRET,
